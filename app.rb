@@ -5,7 +5,7 @@ module FormsLab
 
     # code other routes/actions here
 
-    get '/views/pirates/new' do
+    get '/' do
 
     end
   end
