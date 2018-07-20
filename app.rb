@@ -5,5 +5,9 @@ module FormsLab
 
     # code other routes/actions here
 
+    get '/pirates' do
+      @pirates = Pirate.all 
+    end
+
   end
 end
