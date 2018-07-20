@@ -5,11 +5,7 @@ module FormsLab
 
     # code other routes/actions here
 
-    get '/pirates' do
-      @pirates = Pirate.all
-
-      erb :pirates/index
+    get '/pirates/new' do
     end
-
-  end
+    end
 end
