@@ -8,7 +8,7 @@ module FormsLab
     get '/pirates' do
       @pirates = Pirate.all
 
-      erb :pirates/index.erb
+      erb :pirates/index
     end
 
   end
