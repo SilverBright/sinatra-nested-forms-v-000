@@ -8,5 +8,6 @@ module FormsLab
     get '/views/pirates/new' do
 
     end
+  end
 
 end
